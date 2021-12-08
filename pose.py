@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 # cap.set(4,720)
 cap.set(10,150)
 fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-out = cv2.VideoWriter('output.avi', fourcc, 20.0, (640, 480))
+# out = cv2.VideoWriter('output.avi', fourcc, 20.0, (640, 480))
 pTime = 0
 mpPose = mp.solutions.pose
 mpDraw = mp.solutions.drawing_utils
