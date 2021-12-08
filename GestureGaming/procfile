@@ -1,0 +1,2 @@
+web: python pose.py
+worker: python pose.py 
